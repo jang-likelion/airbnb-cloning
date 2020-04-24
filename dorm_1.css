@@ -1,5 +1,148 @@
-img{
-    width: 10%;
-    height:10%;
+
+
+/* header */
+.head {
+    position: fixed;
+    height:80px;
+    top: 0;
+    width:100%;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    z-index: 1;
+    background-color: white;
 }
+
+.header_inner {
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    margin: auto;
+    width:95%;
+    
+}
+
+/* left logo */
+.logo {
+    height:40px;
+    width:auto;
+   
+}
+
+/* middle box */
+.search_box {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius:15px;
+    height:35px;
+}
+.search_image {
+    height:50%;
+    width:auto;
+    margin:auto;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.box {
+    display:flex;
+    align-items: center;   
+    border-right: 1px solid rgba(var(--b6a,219,219,219),1);
+    font-size:12px;
+    font-weight:800;
+    font-family: 'Nanum Myeongjo', serif;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+
+/* right box */
+.more_information {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    height:35px;
+    
+}
+
+.make_account {
+    border: 2px solid rgba(var(--b6a,219,219,219),1);
+    border-radius:15px;
+    
+}
+
+.info {
+    padding:8px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size:14px;
+    font-weight:400;
+}
+
+.info_image {
+    height:200%;
+    width:auto;
+    padding-bottom:6px;
+
+
+}
+
+/* main section */
+
+.main {
+    position:absolute;
+    top:80px;
+    width:100%;
+    display:flex;
+  
+}
+
+.result {
+    width:65%;
+    padding-left:20px;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+}
+
+.map {
+    width:35%;
+    height:auto;
+}
+
+
+/* result section */
+
+.searcher_info {
+    height:70px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    font-size:15px;
+    
+}
+.searcher_info span {
+    padding-right:4px;
+    color:grey;
+}
+
+.result_header {
+    font-size:30px;
+    font-weight:1000;
+}
+
+.filter_list{
+    display:flex;
+    justify-content:space-between;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:70%;
+}
+
+.filter {
+    padding: 9px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius:15px;
+    font-size:15px;
+}
+
 
