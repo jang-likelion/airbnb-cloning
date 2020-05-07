@@ -1,0 +1,186 @@
+.head {
+    position: fixed;
+    height:80px;
+    top: 0;
+    left:0;
+    width:100%;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    z-index: 1;
+    background-color: white;
+}
+
+.header_inner {
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    margin: auto;
+    width:95%;
+    
+}
+
+.logo_img {
+    cursor: pointer;
+    height:40px;
+    width:auto;
+}
+
+.setup {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius:15px;
+    height:35px;
+}
+
+.setup .search_icon {
+    height:50%;
+    width:auto;
+    margin:auto;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.setup .box {
+    display:flex;
+    align-items: center;   
+    border-right: 1px solid rgba(var(--b6a,219,219,219),1);
+    font-size:12px;
+    font-weight:800;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.more_information {
+    cursor: pointer;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    height:35px;
+}
+
+.more_information .make_account {
+    border: 2px solid rgba(var(--b6a,219,219,219),1);
+    border-radius:15px;
+}
+
+.more_information .info {
+    padding:8px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:14px;
+    font-weight:400;
+}
+
+.more_information .lauguage_icon {
+    height:50%;
+    width:auto;
+}
+.feed {
+  position: relative;
+  background-color: black;
+  color: white;
+}
+  .title {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 120px;
+    padding-left: 100px;
+    width: 40%;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .description {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0px;
+    padding-left: 100px;
+    width: 30%;
+  }
+
+  .explore {
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    width: auto;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600 ;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+.button {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 1000px;
+  background-color: black;
+}
+
+.class_1 {
+  position: absolute;
+  width: 45%;
+  margin: 10px;
+  left: 80px;
+  border-radius: 16px;
+  background-color: rgb(44, 44, 44);
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.class_2 {
+  position: absolute;
+  width: 20%;
+  margin: 10px;
+  right: 400px;
+  border-radius: 16px;
+  background-color: rgb(44, 44, 44);
+  display: inline-block;
+}
+
+.class_3{
+  position: absolute;
+  width: 20%;
+  margin: 10px;
+  right: 80px;
+  border-radius: 16px;
+  background-color: rgb(44, 44, 44);
+  padding-bottom: 20px;
+  display: inline-block;
+}
+.class_4{
+  position: absolute;
+  width: 42%;
+  margin: 10px;
+  right: 80px;
+  top: 630px;
+  border-radius: 16px;
+  background-color: rgb(44, 44, 44);
+  padding-bottom: 20px;
+  display: inline-block;
+}
+  .onlineclass .class_explain {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .onlineclass .class_image {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: inline-block;
+  }
