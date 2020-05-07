@@ -149,7 +149,7 @@
 }
 
 .filter_list .filter {
-    padding: 9px;
+    padding: 9px 15px 9px 15px;
     border: 1px solid rgba(var(--b6a,219,219,219),1);
     border-radius:15px;
     font-size:15px;
